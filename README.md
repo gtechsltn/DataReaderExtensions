@@ -415,11 +415,11 @@ namespace Extensions
         /// <param name="this">The data record.</param>
         /// <param name="name">The field name (case insensitive).</param>
         /// <returns>The index of a column by name, or -1.</returns>
-        public static int IndexOf(this IDataRecord @this, string name)
+        public static int IndexOf(this IDataRecord record, string name)
         {
-            for (int i = 0; i < @this.FieldCount; i++)
+            for (int i = 0; i < record.FieldCount; i++)
             {
-                if (String.Compare(@this.GetName(i), name, StringComparison.InvariantCultureIgnoreCase) == 0)
+                if (String.Compare(record.GetName(i), name, StringComparison.InvariantCultureIgnoreCase) == 0)
                 {
                     return i;
                 }
