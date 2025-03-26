@@ -6,7 +6,7 @@
 * C# **yield return**
 * C# **dynamic**
 * C# **byte[]**
-* SQL Server **varbinary(MAX)**
+* [SQL Server **varbinary(MAX)**](https://learn.microsoft.com/vi-vn/sql/relational-databases/system-catalog-views/sys-types-transact-sql?view=sql-server-ver16)
 * https://github.com/gtechsltn/ADO-DataReaderExtensions
 * https://github.com/gtechsltn/DataReaderExtensions
 * [Extension methods for the DataReaderExtensions class](https://jonlabelle.com/snippets/raw/677/DataReaderExtensions.cs)
