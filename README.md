@@ -2,6 +2,7 @@
 * System.Data.**IDataReader**
 * System.Data.**IDataRecord**
 * System.Collections.**IEnumerable**
+* System.Linq.**IQueryable** (public interface **IQueryable** : System.Collections.**IEnumerable**)
 * C# **yield return**
 * C# **dynamic**
 * C# **byte[]**
