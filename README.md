@@ -1,6 +1,11 @@
 # DataReaderExtensions
-* System.Data.IDataReader
-* System.Data.IDataRecord
+* System.Data.**IDataReader**
+* System.Data.**IDataRecord**
+* System.Collections.**IEnumerable**
+* C# **yield return**
+* C# **dynamic**
+* C# **byte[]**
+* SQL Server **varbinary(MAX)**
 * https://github.com/gtechsltn/ADO-DataReaderExtensions
 * https://github.com/gtechsltn/DataReaderExtensions
 * [Extension methods for the DataReaderExtensions class](https://jonlabelle.com/snippets/raw/677/DataReaderExtensions.cs)
